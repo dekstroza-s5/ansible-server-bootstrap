@@ -1,0 +1,9 @@
+admin_user: platform
+admin_groups: [sudo, docker]
+admin_authorized_keys:
+  - "ssh-ed25519 REPLACE_WITH_A_REAL_PUBLIC_KEY"
+ssh_port: 22
+allowed_tcp_ports: [22, 80, 443, 9100]
+install_docker: true
+install_nginx: true
+node_exporter_version: "1.8.2"
