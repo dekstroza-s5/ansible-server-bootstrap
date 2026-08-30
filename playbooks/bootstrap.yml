@@ -1,0 +1,5 @@
+- name: Bootstrap application servers
+  hosts: application
+  become: true
+  roles:
+    - server_bootstrap
